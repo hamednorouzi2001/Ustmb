@@ -1,0 +1,127 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: myFont;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #2b0158;
+}
+
+.header a {
+    background-color: aliceblue;
+    padding: 10px 15px;
+    border-end-end-radius: 8px;
+    border-end-start-radius: 8px;
+    font-family: myFont;
+    text-decoration: none;
+}
+
+
+.footer p {
+    direction: rtl;
+    padding-top: 12px;
+    padding-right: 40%;
+}
+
+.head-btn {
+    direction: rtl;
+    padding: 10px;
+}
+
+.master {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #2b0158;
+    height: 600px;
+}
+
+.form {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background-color: white;
+    height: 450px;
+    border-radius: 12px;
+}
+
+.left {
+    margin-top: 20px;
+}
+
+.right {
+    width: 40%;
+    direction: rtl;
+    justify-content: flex-start;
+    text-align: right;
+}
+
+#btn-vorod {
+    padding: 8px 12px;
+    background-color: #2b0158;
+    color: aliceblue;
+    font-family: myFont;
+    border-radius: 9px;
+}
+
+#btn-forget {
+    font-size: x-small;
+    display: flex;
+    text-decoration: none;
+    font-family: myFont;
+    border-radius: 9px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.wellcome {
+    font-size: xxx-large;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    color: #2b0158;
+}
+
+.txt-vorod {
+    font-size: x-large;
+    padding-bottom: 30px;
+    margin-top: -15px;
+}
+
+.txt-login {
+    padding: 10px;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.form-about {
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.p-about {
+    margin-top: 100px;
+    width: 340px;
+    color: #000000;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+}
+
+.master img {
+    width: 40%;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(/fonts/Vazir.woff);
+}
